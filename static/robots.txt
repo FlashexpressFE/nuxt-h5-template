@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /*?utm_source
+
+User-Agent: Googlebot
+Allow: /
+Allow: /*?utm_source
+
+User-Agent: bingbot
+Allow: /
+Allow: /*?utm_source
+
+
+User-Agent: Googlebot-Image
+Allow: /
+Allow: /*?utm_source
+
+#
+# FlashHR
+# 
