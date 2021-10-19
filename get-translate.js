@@ -7,7 +7,7 @@ init("en");
 
 function init(lang) {
   axios
-    .get(`https://ard-static.flashexpress.com/new-flash-hr-website/lang/${lang}.json?time=${Date.now()}`)
+    .get(`xxx/lang/${lang}.json?time=${Date.now()}`)
     .then(res => {
       fs.writeFile(`./local/${lang}.json`, JSON.stringify(res.data), "utf8", error => {
         if (error) {

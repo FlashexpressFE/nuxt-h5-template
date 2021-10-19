@@ -3,7 +3,7 @@ import env from "./env";
 export default {
   env: env[process.env.NODE_ENV],
   server: { port: 8056, host: "0.0.0.0" },
-  googleAnalytics: { id: "UA-183876102-2" },
+  googleAnalytics: { id: "xxxxxxxx" },
   loading: false,
   head: {
     htmlAttrs: { lang: "en" },
@@ -13,12 +13,12 @@ export default {
       { name: "viewport", content: "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" },
       {
         name: "google-site-verification",
-        content: "zMMI5ziQw8cgDL7X25WLTBWKVjexb-Vxr2ryJu8dW8M"
+        content: "xxxxxxxx"
       }
     ],
     script: [
-      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-C01T5836CR" },
-      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=UA-183876102-2" },
+      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=xxxxxxxx" },
+      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=xxxxxxx" },
       { async: true, src: "/ga4.js" },
       { async: true, src: "/ua.js" }
     ],
